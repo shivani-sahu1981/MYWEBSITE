@@ -296,12 +296,47 @@ section{
 }
 
 .pricing .box-container .box p{
+    padding: .5rem 0;
     line-height: 1.8;
     font-size: 1.6rem;
     color: var(--light-white);
 }
 
+/* .top-games .box-container{
 
+} */
+
+
+.top-games .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.top-games .box-container .box{
+    height: 35rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-games .box-container .box video{
+    height: 100%;
+    width: 100%;
+   
+    transform: .2s var(--light-white);
+}
+
+.top-games .box-container .box:hover video{
+    transform:scale(1.1);
+}
+
+.top-games .box-container.box::before{
+    content: 'play now';
+
+}
 
 
 
