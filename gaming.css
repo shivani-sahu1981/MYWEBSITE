@@ -89,6 +89,19 @@ section{
     color: var(--white);
 }
 
+.heading{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -256,8 +269,37 @@ section{
     line-height: 1.5;
 }
 
+.pricing .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center; 
+}
 
+.pricing .box-container .box{
+    text-align: center;
+    padding: 6rem 3rem;
+    box-shadow: var(--box-shadow);
+}
 
+.pricing .box-container .box img{
+    height: 15rem;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pricing .box-container .box h3{
+    margin: 1.5rem 0;
+    font-size: 3rem;
+    color: var(--light-white);
+}
+
+.pricing .box-container .box p{
+    line-height: 1.8;
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
 
 
 
