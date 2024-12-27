@@ -456,6 +456,82 @@ section{
 }
 
 
+.faq{
+    background: url (linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.faq .box-container{
+    display: grid;
+    gap: 2rem;
+}
+
+.faq .box-container .box{
+    border: var(--border);
+    border-radius: .5rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+.faq .box-container .box .title{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.faq .box-container .box .title .fa-minus{
+    transform: rotate(180deg);
+    transition: .2s linear;
+}
+
+.faq .box-container .box .title .fa-plus{
+    transform: rotate(90deg);
+    transition: .2s linear;
+}
+
+.faq .box-container .box .content{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--light-white);
+    transform-origin:top ;
+    transform: scaleY(0);
+    height: 0;
+}
+
+.faq .box-container .box .content.active{
+    transform: scaleY(1);
+    height: auto;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
