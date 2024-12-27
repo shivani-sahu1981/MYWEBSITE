@@ -358,6 +358,35 @@ section{
     transform: scale(1);
 }
 
+.info-container{
+    background-color: var(--bg-color);
+}
+
+.info-container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info-container .box-container .box{
+    text-align: center;
+}
+
+.info-container .box-container .box img{
+    height: 10rem;
+    width: 80%;
+    object-fit: contain;
+}
+
+.info-container .box-container .box h3{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: var(--light-white);
+}
+
+
 
 
 
