@@ -325,8 +325,8 @@ section{
 .top-games .box-container .box video{
     height: 100%;
     width: 100%;
-   
-    transform: .2s var(--light-white);
+    object-fit: cover;
+    transition: .2s linear;
 }
 
 .top-games .box-container .box:hover video{
