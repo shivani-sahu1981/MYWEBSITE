@@ -511,7 +511,10 @@ section{
     transition: .2s linear;
 }
 
-
+.contact .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+}
 
 
 
