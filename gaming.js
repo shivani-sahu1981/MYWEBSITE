@@ -26,4 +26,5 @@ faqBox.forEach(box =>{
         let content = box.querySelector('content');
         let icon = box.querySelector(i);
     }
+    
 });
