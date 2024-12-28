@@ -23,7 +23,6 @@ let faqBox = document.querySelectorAll('.faq .box-container .box');
 faqBox.forEach(box =>{
 
     box.onclick = () =>{
-
         let content = box.querySelector('.content');
         let icon = box.querySelector('i');
 
