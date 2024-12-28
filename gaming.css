@@ -507,6 +507,7 @@ section{
     transform: scaleY(1);
     height: auto;
     padding-top: 1rem;
+    transition: .2s linear;
 }
 
 
