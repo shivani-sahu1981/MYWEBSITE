@@ -647,9 +647,42 @@ section{
     font-size: 1.6rem;
     line-height: 1.6;
     color: var(--light-white);
+    padding: 1rem 0;
 }
 
 
+.footer .box-container .box .share-links{
+    margin-top: 1rem;
+}
+
+.footer .box-container .box .share-links a{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: var(--white);
+    color: var(--black);
+    margin: 0 .5rem;
+}
+
+.footer .box-container .box .share-links a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .credit{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    font-size: 2rem;
+    border-top: var(--light-white);
+    color: var(--light-white);
+}
+
+.footer .credit{
+    color: var(--main-color);
+}
 
 
 
@@ -715,6 +748,10 @@ body{
    }
    .home .flex .content h3{
     font-size: 3.5rem;
+   }
+   .footer .credit{
+    justify-content: center;
+    text-align: center;
    }
 
 }
