@@ -514,13 +514,140 @@ section{
 .contact .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
 }
 
+.contact .box-container .box{
+    background-size: coevr !important;
+    background-position: center !important;
+    padding: 6rem 4rem;
+    box-shadow: var(--box-shadow);
+}
 
+.contact .box-container .box:nth-child(2){
+    text-align: center;
+}
 
+.contact .box-container .box:nth-child(3){
+    text-align: right;
+}
 
+.contact .box-container .box img{
+    height: 12rem;
+    width: 12rem;
+    margin-bottom: 12rem;
+}
 
+.contact .box-container .box h3{
+    margin: 1.2rem 0;
+    font-size: 2.5rem;
+    color: var(--white);
+}
 
+.contact .box-container .box a{
+    display: block;
+    text-transform: none;
+    color: var(--light-white);
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+}
+
+.contact .box-container .box a:hover{
+    text-decoration: underline;
+    color: var(--main-color);
+}
+
+.contact .form{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact .flex .input{
+    flex: 1 1 40rem;
+}
+
+.contact  .input,
+.contact textarea{
+    background: none;
+    color: var(--white);
+    border: var(--border);
+    border-radius: .5rem;
+    padding: 1.6rem;
+    font-size: 2rem;
+    text-transform: none;
+}
+
+.contact  .input:focus,
+.contact textarea:focus{
+    border-color: var(--main-color);
+    transition: .2s linear;
+}
+
+.contact  textarea{
+    height: 20rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    resize: none;
+}
+
+.contact .btn:hover{
+    background-color: var(--main-color);
+}
+
+.footer{
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 3rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer .box-container .box:last-child{
+    text-align: right;
+}
+
+.footer .box-container .box:nth-child(2){
+    text-align: center;
+}
+
+.footer .box-container .box h3{
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.footer .box-container .box .link{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--white);
+    display: block;
+}
+
+.footer .box-container .box .link:hover{
+    text-decoration: underline;
+    color: var(--light-white);
+    text-underline-offset: .5rem;
+}
+
+.footer .box-container .box p{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--light-white);
+}
 
 
 
