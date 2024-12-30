@@ -58,3 +58,30 @@ body{
     color: #fff;
     background-color: #ababab;
 }
+
+.weather-body img{
+    width: 60%;
+}
+
+.weather-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+
+.weather-box{
+    margin-block: 20px;
+    text-align: center;
+}
+
+.weather-box .temperature{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+}
+
+.weather-box .temperature sup{
+    font-size: 20px;
+}
