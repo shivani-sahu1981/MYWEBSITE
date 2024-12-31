@@ -14,7 +14,7 @@
             <div class="search-box">
                 <input type="text" placeholder="enter your location" class="input-box">
 
-                <button class="fa-solid fa-magnifying-glass"></button>
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
             </div>
         </div>
             <div class="weather-body">
@@ -28,10 +28,25 @@
             <div class="weather-details">
                 <div class="humidity">
                     <i class="fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="Humidity">45%</span>
+                        <p>Humidity</p>
+                    </div>
                 </div>
+
+                <div class="Wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="Wind-speed">45%</span>
+                        <p>Wind-speed</p>
+                    </div>
+                </div>
+
             </div>
             </div>
         
     </div>
+
+    <script src="weather.js"></script>
 </body>
 </html>
