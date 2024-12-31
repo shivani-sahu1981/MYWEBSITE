@@ -84,4 +84,13 @@ body{
 
 .weather-box .temperature sup{
     font-size: 20px;
+    position: absolute;
+    font-weight: 600;
+}
+
+.weather-box .description{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize+
+    ;
 }
