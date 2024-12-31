@@ -7,11 +7,15 @@ const humidity = document.getElementById('humidity');
 const wind_speed = document.getElementById('wind_speed');
 
 
-function checkWeather(city){
-    const api_key = "bd5e378503939ddaee76f12ad7a97608";
-    const url = 'https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}';
+async function checkWeather(city){
+    let api_key = 'bd5e378503939ddaee76f12ad7a97608'
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`;
 
+    const weather_data = await fetch('${url}').then(response => response.json());
+
+    temperature.innerHTML = '${Math.round(weather_data.main.temp - 273.15)}';
 }
 searchBtn.addEventListener('click', ()=>{
     checkWeather(inputBox.value);
 })
+
