@@ -91,6 +91,5 @@ body{
 .weather-box .description{
     font-size: 20px;
     font-weight: 700;
-    text-transform: capitalize+
-    ;
+    text-transform: capitalize;
 }
