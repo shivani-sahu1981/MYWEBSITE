@@ -12,16 +12,16 @@
     </div>
 
     <div class="buttons">
-        <button id="stopbtn" class="btn" style="--clr:red;" >Stop</button>
-        <button id="startbtn" class="btn" style="--clr:green;" >Start</button>
-        <button id="resettbtn" class="btn" style="--clr:blue;" >Reset</button>
+        <button id="stopBtn" class="btn" style="--clr:red;" >Stop</button>
+        <button id="startBtn" class="btn" style="--clr:green;" >Start</button>
+        <button id="resettBtn" class="btn" style="--clr:blue;" >Reset</button>
     </div>
 
     <script>
         let timerDisplay = document.querySelector('.timerDisplay');
-        let stopbtn = document.getElementById('stopbtn');
-        let startbtn = document.getElementById('startbtn');
-        let resetbtn = document.getElementById('resetbtn');
+        let stopBtn = document.getElementById('stopBtn');
+        let startBtn = document.getElementById('startBtn');
+        let resetBtn = document.getElementById('resetBtn');
 
         let msec = 00;
         let secs = 00;
@@ -29,18 +29,18 @@
 
         let timerId = null;
 
-        startbtn.addEventListener('click', function(){
+        startBtn.addEventListener('click', function(){
             if(timerId !== null){
                 clearInterval(timerId);
             }
             timerId = setInterval(startTimer, 10);
         });
 
-        stopbtn.addEventListener('click', function(){
+        stopBtn.addEventListener('click', function(){
             clearInterval(timerId);
         });
 
-        resetbtn.addEventListener('click', function(){
+        resetBtn.addEventListener('click', function(){
             clearInterval(timerId);
             timerDisplay.innerHTML = '00 : 00 :00';
         });
@@ -55,9 +55,15 @@
                     mins++;
                 }
             }
+        
+
+        let msecString = msec < 10 ? '0${msec}': msec;
+        let secsString = msec < 10 ? '0${secs}': secs;
+        let minsString = msec < 10 ? '0${mins}': mins;
+
+        timerDisplay.innerHTML = '${minsString} : ${secsString} : ${msecString}';
+
         }
-
-
     </script>
 </body>
 </html>
