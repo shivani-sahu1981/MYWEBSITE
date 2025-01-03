@@ -58,3 +58,36 @@ body{
     height: 100%;
     object-fit: cover;
 }
+
+.container .card .content{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 29px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.container .card:hover .content{
+    top: 130px;
+    height: 250px;
+}
+
+.container .card:hover .content h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--clr);
+}
+
+.container .card:hover .content p{
+    color: #333;
+}
+
+.container .card:hover .content a{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+}
