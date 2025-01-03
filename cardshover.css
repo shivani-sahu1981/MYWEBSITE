@@ -43,3 +43,8 @@ body{
     border-radius: 12px;
     transition: 0.5s;
 }
+.container .card:hover .imgbox{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
