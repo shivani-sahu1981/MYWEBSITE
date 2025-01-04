@@ -97,4 +97,10 @@ button{
     outline: none;
     cursor: pointer;
     margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy{
+    background: #d52075;
 }
