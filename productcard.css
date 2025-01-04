@@ -76,7 +76,6 @@ li{
 .fa{
     font-size: 26px;
     transition: .4s;
-    margin: 3px;
 }
 
 .checked{
@@ -101,6 +100,29 @@ button{
     border-bottom-left-radius: 20px;
 }
 
-.buy{
+.buy-1{
     background: #d52075;
+}
+
+.buy-2{
+    background: #3b3e6e;
+}
+
+.buy-3{
+    background: #0b0b0b ;
+}
+
+.buy-4{
+    background: #ff9f43;
+}
+
+@media (max-width:1000px) {
+    .content{
+        width: 45%;
+    }
+}
+@media (max-width:750) {
+    .content{
+        width: 100%;
+    }
 }
