@@ -26,7 +26,7 @@ section nav{
     z-index:1000;
 }
 
-section nav .log img{
+section nav .logo img{
     width: 100px;
     cursor: pointer;
     margin: 7px 0;
@@ -64,3 +64,5 @@ section nav ul li a:hover::after{
 section nav ul li a:hover{
     color: #fac031;
 }
+
+
