@@ -76,3 +76,17 @@ section nav .icon i{
 section nav .icon i:hover{
     color: #fac031;
 }
+
+section  .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+}
+section .main .men-text h1{
+    font-size: 60px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
