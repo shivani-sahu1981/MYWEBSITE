@@ -153,7 +153,7 @@ section .main-btn:hover i {
 }
 
 .about .about-main .image img{
-    width: 800px;
+    width: 500px;
     position: relative;
     top: 60px;
 }
@@ -161,7 +161,7 @@ section .main-btn:hover i {
 .about .about-main .about-text h1 span{
     color: #fac031;
     margin-right: 15px;
-    font-family:  mv boll;
+    font-family:  mv boli;
 }
 
 .about .about-main .about-text h1{
@@ -190,4 +190,23 @@ section .main-btn:hover i {
     position: relative;
     left: 55%;
     bottom: 30px;
+}
+
+.menu{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.menu h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.menu h1 span{
+    color: #fac031;
+    margin-left: 15px;
+    font-family: mv boli;
 }
