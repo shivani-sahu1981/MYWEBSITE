@@ -104,3 +104,13 @@ section .main .main-text img{
     position: relative;
     left: 70px;
 }
+
+section p{
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    left: 123px;
+    bottom: 120px;
+    line-height: 22px;
+
+}
