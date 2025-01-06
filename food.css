@@ -114,3 +114,28 @@ section p{
     line-height: 22px;
 
 }
+
+section .main-btn{
+    background: #fac031;
+    position: relative;
+    left: 123px;
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px ;
+}
+
+section .main-btn a{
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+section .main-btn i{
+    color: #fff;
+    transition: 0.3s;
+}
+
+section .main-btn:hover i {
+    transform: translateX(7px);
+}
