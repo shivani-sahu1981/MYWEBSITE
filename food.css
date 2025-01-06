@@ -178,6 +178,7 @@ section .main-btn:hover i {
 .about .about-main .about-text p{
     width: 650px;
     text-align: justify;
-    margin-right: ;
+    margin-right: 30px;
+    line-height: 22px;
 
 }
