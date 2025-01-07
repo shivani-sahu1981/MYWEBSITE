@@ -341,7 +341,7 @@ section .main-btn:hover i {
 }
 
 .gallery h1 span{
-    margin-top: 15px;
+    margin-left: 15px;
     color: #fac031;
     font-family: mv boli;
 }
@@ -359,6 +359,9 @@ section .main-btn:hover i {
 .gallery .gallery-image-box{
     width: 95%;
     margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
 
 .gallery .gallery-image-box .gallery-image{
@@ -370,5 +373,40 @@ section .main-btn:hover i {
 
 .gallery .gallery-image-box .gallery-image img{
     width: 100%;
+    transition: .3s;
 }
 
+.gallery .gallery-image-box .gallery-image:hover img{
+    opacity: 0.4;
+}
+
+.gallery .gallery-image-box .gallery-image h3{
+    position: absolute;
+    font-size: 35px;
+    margin-bottom: 130px;
+    color: #fac031;
+    font-family: polo;
+    z-index: 5;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery .gallery-image-box .gallery-image:hover h3{
+    opacity: 1;
+}
+
+.gallery .gallery-image-box .gallery-image p{
+    position: absolute;
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 22px;
+    opacity: 0;
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.gallery .gallery-image-box .gallery-image:hover p{
+    opacity: 1;
+}
