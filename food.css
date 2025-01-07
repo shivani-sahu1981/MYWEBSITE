@@ -333,5 +333,18 @@ section .main-btn:hover i {
     padding: 70px 0;
 }
 
+.gallery h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery h1 span{
+    margin-top: 15px;
+    color: #fac031;
+    font-family: mv boli;
+}
+
 
 
