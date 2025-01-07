@@ -328,7 +328,10 @@ section .main-btn:hover i {
     translate: 0.3s;
 }
 
-
+.gallery{
+    width: 100%;
+    padding: 70px 0;
+}
 
 
 
