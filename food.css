@@ -224,6 +224,9 @@ section .main-btn:hover i {
 .menu .menu-box{
     width: 95%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:15px;
 }
 
 .menu .menu-box .menu-card{
