@@ -242,7 +242,7 @@ section .main-btn:hover i {
 }
 
 .menu .menu-box .menu-card .menu-image img{
-    width: 150px;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
