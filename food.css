@@ -410,3 +410,21 @@ section .main-btn:hover i {
 .gallery .gallery-image-box .gallery-image:hover p{
     opacity: 1;
 }
+
+.gallery .gallery-image-box .gallery-image .gallery-btn{
+    position: absolute;
+    margin-top: 100px;
+    color: #000;
+    background: #fac031;
+    padding: 7px 25px;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(45deg);
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.gallery .gallery-image-box .gallery-image:hover .gallery-btn{
+    opacity: 1;
+    transform: translateY(0);
+}
