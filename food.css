@@ -571,3 +571,54 @@ section .main-btn:hover i {
     position: relative;
     bottom: 15px;
 }
+
+.order .order-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.order .order-main .order-image img{
+    width: 600px;
+}
+
+.order .order-main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10px;
+}
+
+.order .order-main form .input p{
+    line-height: 25px;
+}
+
+.order .order-main form .input{
+    margin: 5px;
+}
+
+.order .order-main form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+}
+
+
+.order .order-main form .input input:focus{
+    border: 2px solid #fac031;
+}
+
+.order .order-main form .order-btn{
+    padding: 10px 0;
+    background: #fac031;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
