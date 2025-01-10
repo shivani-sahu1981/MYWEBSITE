@@ -621,4 +621,54 @@ section .main-btn:hover i {
     text-decoration: none;
 }
 
+.team{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://i.pinimg.com/736x/79/07/b2/7907b2f8cd725ae14b5844308b1e27f2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.team h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.team h1 span{
+    color: #fac031;
+    margin-left: 15px;
+    font-family: mv boli;
+}
+
+.team h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.team .team-box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 13%;
+}
+
+.team .team-box .profile{
+    width: 320px;
+    height: 320px;
+}
+
+.team-box .profile img{
+    width: 150px;
+}
 
