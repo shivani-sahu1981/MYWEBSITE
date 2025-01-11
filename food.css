@@ -189,7 +189,7 @@ section .main-btn:hover i {
     color: #fff;
     position: relative;
     left: 55%;
-    bottom: 30px;
+    /* bottom: 5px; */
 }
 
 .menu{
