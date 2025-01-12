@@ -6,5 +6,16 @@
 
 body{
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9csU8Xv0M8cQsVj909iPPCCMdtTDPdTAb5A&s);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20x;
     
 }
