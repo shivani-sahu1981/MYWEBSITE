@@ -24,8 +24,8 @@
             <input type="text" class="input" placeholder="your last name">
             <input type="number" class="input" placeholder="number">
             <div class="btn">
-                <button type="button">Prev</button>
-                <button type="button">Next</button>
+                <button type="button" onclick="prevtoform1()">Prev</button>
+                <button type="button" onclick="nexttoform3()">Next</button>
             </div>
         </form>
 
@@ -35,11 +35,31 @@
             <input type="password" class="input" placeholder="Github">
             <input type="password" class="input" placeholder="Medium">
             <div class="btn">
-                <button type="button">Prev</button>
+                <button type="button" onclick="prevtoform2()">Prev</button>
                 <button type="submit">Submit</button>
             </div>
         </form>
 
     </div>
+
+    <script type="text/javascript">
+        const forms = document.querySelectorAll('form');
+        const nexttoform2 = ()=>{
+            forms[0].style.left = '-100%'
+            forms[1].style.left = '0'
+        }
+        const prevtoform1 = ()=>{
+            forms[0].style.left = '0'
+            forms[1].style.left = '-100%'
+        }
+        const nexttoform3 =()=>{
+            forms[2].style.left = '0'
+            forms[1].style.left = '-100%'
+        }
+        const prevtoform2 =()=>{
+            forms[2].style.left = '100%'
+            forms[1].style.left = '0'
+        }
+    </script>
 </body>
 </html>
