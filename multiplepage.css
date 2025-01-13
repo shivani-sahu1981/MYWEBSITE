@@ -74,3 +74,20 @@ body{
 .form3{
     left: 100%;
 }
+
+.progress{
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress div{
+    width: 35%;
+    text-align: center;
+    padding: 14px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
