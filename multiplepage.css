@@ -31,7 +31,6 @@ body{
     padding: 60px 30px;
     position: absolute;
     top: 0;
-    left: 0;    
 }
 
 
@@ -63,6 +62,10 @@ body{
     border-radius: 15px;
     border: none;
     background: linear-gradient(45deg,red,yellow);
+}
+
+.form1{
+    left: 0;
 }
 
 .form2,
