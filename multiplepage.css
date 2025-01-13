@@ -90,4 +90,12 @@ body{
     color: white;
     font-size: 18px;
     font-weight: bold;
+    z-index: 2;
+}
+.progressBar{
+    position: absolute;
+    width: 33%;
+    background: linear-gradient(to right, red, yellow);
+    height: 100%;
+    z-index: 1;
 }
