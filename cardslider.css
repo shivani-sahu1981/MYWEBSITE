@@ -14,10 +14,16 @@ body{
     min-height: 100vh;
     background: #030728 ;
 }
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
   
   body::before {
     content: "";
-    width: 300px;
+    user-select: none;
     height: 300px;
     background: linear-gradient(135deg, magenta, orange);
     border-radius: 50%;
@@ -85,4 +91,10 @@ body{
     background: rgba(255, 255, 255, 0.1);
     border: 3px solid #fff;
     color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bulllet {
+    background: #fff;
+    height: 15px;
+    width: 15px;
 }
