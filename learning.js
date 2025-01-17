@@ -21,3 +21,7 @@
 let str = "IloveJS";
 str = str.replace("I", "s");
 console.log(str);
+
+let fullName = prompt("enter your name");
+let username = "@" + fullName +  fullName.length;
+console.log(username);
