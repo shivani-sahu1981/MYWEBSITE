@@ -18,10 +18,22 @@
 // let str = "IloveJs";
 // console.log(str[0]);
 
-let str = "IloveJS";
-str = str.replace("I", "s");
-console.log(str);
+// let str = "IloveJS";
+// str = str.replace("I", "s");
+// console.log(str);
 
-let fullName = prompt("enter your name");
-let username = "@" + fullName +  fullName.length;
-console.log(username);
+// let fullName = prompt("enter your name");
+// let username = "@" + fullName +  fullName.length;
+// console.log(username);
+
+
+// ARRAYS
+
+let name = ["harry", "aruna","shivani", "shivi", "shree"];
+console.log(name);
+console.log(name.length);
+
+let age = [20,12,23,18,19];
+console.log(age);
+console.log(age.length);
+
