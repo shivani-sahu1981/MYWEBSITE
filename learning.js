@@ -37,9 +37,32 @@
 // console.log(age);
 // console.log(age.length);
 
-let name = ["harry", "radhe", "ruhi", "shivi","aayu"];
-for(let i=0; i < name.length; i++){
-    console.log(name[i]);
+let names = ["harry", "radhe", "ruhi", "shivi","aayu"];
+
+// for loop
+
+for(let i=0; i < names.length; i++){
+    console.log(names[i]);
 }
 
+// for of 
+
+for (let name of names){
+    console.log(name);
+}
+
+let cities = ["delhi", "pune","mumbai", "banglore","hyderabad", "noida"];
+
+for(let city of cities){
+    console.log(city.toUpperCase());
+}
+
+let marks = [85, 97,44,37,76,60];
+let sum = 0;
+for(let val of marks){
+    sum += val;
+}
+
+let avg = sum / marks.length;
+console.log(`avg marks of the class = ${avg}`);
 
