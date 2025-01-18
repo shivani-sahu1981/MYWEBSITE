@@ -66,3 +66,9 @@ for(let val of marks){
 let avg = sum / marks.length;
 console.log(`avg marks of the class = ${avg}`);
 
+let prices = [250, 645, 300, 900, 50]
+let i = 0;
+for(let val of prices){
+    console.log(`values at index ${i}= ${val}`);
+    let offer = item
+}
