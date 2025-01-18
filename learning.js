@@ -29,11 +29,13 @@
 
 // ARRAYS
 
-let name = ["harry", "aruna","shivani", "shivi", "shree"];
-console.log(name);
-console.log(name.length);
+// let name = ["harry", "aruna","shivani", "shivi", "shree"];
+// console.log(name);
+// console.log(name.length);
 
-let age = [20,12,23,18,19];
-console.log(age);
-console.log(age.length);
+// let age = [20,12,23,18,19];
+// console.log(age);
+// console.log(age.length);
+
+
 
