@@ -37,5 +37,9 @@
 // console.log(age);
 // console.log(age.length);
 
+let name = ["harry", "radhe", "ruhi", "shivi","aayu"];
+for(let i=0; i < name.length; i++){
+    console.log(name[i]);
+}
 
 
