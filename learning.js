@@ -70,5 +70,7 @@ let prices = [250, 645, 300, 900, 50]
 let i = 0;
 for(let val of prices){
     console.log(`values at index ${i}= ${val}`);
-    let offer = item
+    let offer = val / 10;
+    prices[i] = prices[i] - offer;
+    console.log(`value after offer = ${val}`);
 }
