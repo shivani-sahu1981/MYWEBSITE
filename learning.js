@@ -82,7 +82,17 @@
 // console.log(prices);
 
 // arrays methods
-let foodItems = ["potato","tomato","onion","peas"];
-foodItems.push("chips","burger","paneer");
-console.log(foodItems);
+// let foodItems = ["potato","tomato","onion","peas"];
+// foodItems.push("chips","burger","paneer");
+// console.log(foodItems);
 
+// let foodItems = ["potato","tomato","onion","peas"];
+// console.log(foodItems);
+// foodItems.pop();
+// console.log(foodItems);
+
+let foodItems = ["potato","tomato","onion","peas"];
+console.log(foodItems);
+let deletedItem = foodItems.pop();
+console.log(foodItems);
+console.log("deleted", deletedItem);
