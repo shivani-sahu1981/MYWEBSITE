@@ -91,8 +91,13 @@
 // foodItems.pop();
 // console.log(foodItems);
 
+// let foodItems = ["potato","tomato","onion","peas"];
+// console.log(foodItems);
+// let deletedItem = foodItems.pop();
+// console.log(foodItems);
+// console.log("deleted", deletedItem);
+
 let foodItems = ["potato","tomato","onion","peas"];
 console.log(foodItems);
-let deletedItem = foodItems.pop();
+console.log(foodItems.toString());
 console.log(foodItems);
-console.log("deleted", deletedItem);
