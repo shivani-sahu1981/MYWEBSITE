@@ -11,12 +11,64 @@
             box-sizing: border-box;
         }
 
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(228, 228, 171);
+        }
+
         .container{
-            display: block;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 20px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background-color:rgb(230, 208, 182);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+
+        .header h1{
+            margin: 5px;
+            padding: 10px;
+            font-size: 40px;
+            font-weight: 600;
         }
 
         .input-field{
+            justify-items: center;
             line-height: 30px;
+            outline: none;
+        }
+
+        .inp{
+            margin: 5px;
+            padding: 8px;
+            width: 60%;
+            height: 25px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            text-align: center;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+
+        .inp::placeholder{
+            font-size: 15px;
+            color: purple;
+        }
+
+        .submit-btn button{
+            width: 70%;
+            margin: 5px;
+            padding: 8px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: purple;
+            color: #fff;
         }
     </style>
 </head>
@@ -26,11 +78,11 @@
             <h1>Registration Form</h1>
         </div>
         <div class="input-field">
-            <input type="text" class="inp" placeholder="enter your name"><br>
-            <input type="number" class="NO" placeholder="enter your mobile"><br>
-            <input type="text" class="inp" placeholder="enter Team name"><br>
-            <input type="text" class="mem1" placeholder="member1"><br>
-            <input type="text" class="inp" placeholder="member2"><br>
+            <input type="text" class="inp" placeholder="Enter your name"><br>
+            <input type="number" class="inp" placeholder="Enter your mobile"><br>
+            <input type="text" class="inp" placeholder="Enter Team name"><br>
+            <input type="text" class="inp" placeholder="Member1"><br>
+            <input type="text" class="inp" placeholder="Member2"><br>
         </div>
         <div class="payment">
             <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg">
